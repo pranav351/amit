@@ -296,3 +296,22 @@ footer {
   margin-top: 60px;
   font-size: 14px;
 }
+.phone-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.country-code {
+  width: 200px;
+  padding: 12px;
+  font-size: 16px;
+  color: grey;
+}
+
+.phone-group input[type="tel"] {
+  flex: 1;
+  padding: 14px;
+  font-size: 16px;
+}
